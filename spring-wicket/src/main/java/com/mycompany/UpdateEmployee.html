@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html  xmlns:wicket="http://wicket.apache.org">
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body>
+	<!-- <form wicket:id="empDetailsForm1">
+	
+	<input wicket:id="empRole1" type="text" placeholder="update role"/>
+	<input wicket:id="empDivision1" type="text" placeholder="update division"/>
+	<input type="submit" value="update employee">
+	</form> -->
+	<p class="h4">
+	Provide The following details to update
+	</p>
+	
+	<form wicket:id="empDetailsForm1">
+  	<div class="form-row">
+  		<div class="col-auto">
+    	<input wicket:id="empRole1" type="text" placeholder="update role" class="form-control">
+    	</div>
+    	<div class="col-auto">
+    	
+    	<input wicket:id="empDivision1" type="text" class="form-control" placeholder="update division">
+    	</div>
+  	</div>
+  	<div class="form-check">
+    	<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    	<label class="form-check-label" for="exampleCheck1">confirm details</label>
+  	</div>
+  	<button type="submit" class="btn btn-outline-dark">update</button>
+	</form>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html  xmlns:wicket="http://wicket.apache.org">
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+	<body>
+	<p class="h5">Provide following details to update </p>
+		<form wicket:id="OrgDetailsForm_update">
+			<div class="form-row">
+				<div class="col-auto">
+					<input wicket:id="update_orgManager" type="text" placeholder="update manager"/>
+				</div>
+				<div class="col-aoto">
+					<input wicket:id="update_orgAddress" type="text" placeholder="update Address"/>
+				</div>
+			</div>
+			<br>
+	<button type="submit" class="btn btn-outline-dark btn-sm">update</button>
+	</form>
+
+</body>
+
+</html>

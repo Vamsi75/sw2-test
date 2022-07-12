@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body>
+	<p class="h5">
+	Priovide the Following Details
+	</p>
+	<form wicket:id="empDetailsForm">
+	<div class="form-row">
+	<div class="col-auto">
+	<input wicket:id="empId" type="text" placeholder="Enter Emp Id"/>
+	<input wicket:id="empName" type="text" placeholder="employee name"/>	
+	<input wicket:id="empRole" type="text" placeholder="employee role"/>
+	<input wicket:id="empDivision" type="text" placeholder="employee division"/>
+	</div>
+	</div>
+  	<button type="submit" class="btn btn-outline-success btn-sm">update</button>
+	</form>
+
+</body>
+</html>

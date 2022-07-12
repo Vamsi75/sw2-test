@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body>
+	<wicket:extend>
+	    <div wicket:id="addOrg">
+	    <input type="button" class="btn btn-secondary btn-sm" value="Add Organisation"/>
+	    </div>
+	    <!-- <div wicket:id="deleteOrg">
+	    <input type ="button" value="delete organisation"/>
+	    </div> -->
+	    
+	    <span wicket:id="page1label"></span>
+<!--	    <span wicket:id="postOrg"></span>
+ 	    <span wicket:id="delOrg"></span>
+ -->	
+ 
+ 
+	<table class="table">
+	<thead>
+    <tr>
+      <th scope="col">org Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Manager</th>
+      <th scope="col">Location</th>
+      <th scope="col">Opearations</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+	  <tr wicket:id="orgData">
+	         <td wicket:id="orgId">OrgId</td>
+	         <td wicket:id="orgName"></td>
+	         <td wicket:id="orgManager"></td>
+	         <td wicket:id="orgAddress"></td>
+	         <td wicket:id="addEmployees" class="btn btn-outline-success btn-sm mb-3 ">	Add Employee</td>
+	         <td wicket:id="delOrganisation" class="btn btn-outline-danger btn-sm mb-3">
+	       delete Organisation
+	         </td>
+	         <td wicket:id="updateOrganisation" class="btn btn-outline-secondary btn-sm mb-3">
+	       Update Organisation
+	         </td>
+	  </tr>
+	</tbody>
+	</table>
+ 	</wicket:extend>
+
+	</body>
+</html>

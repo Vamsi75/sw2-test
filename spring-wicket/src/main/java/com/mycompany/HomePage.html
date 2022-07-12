@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body>
+	<div class=container>
+	<h2 class="display-6">Organisation and Employee Portal</h2>
+	<div id="header">
+    <button wicket:id="page1"class="btn btn-outline-info btn-sm"> Org Details</button>
+    <button wicket:id="page2"class="btn btn-outline-info btn-sm">Employee Details</button>
+	</div>
+	<div id="body">
+	<wicket:child />
+	</div><br>
+	<div id="footer">
+		<span wicket:id="footer"></span>
+	</div> 
+	</div>
+	</body>
+</html>
